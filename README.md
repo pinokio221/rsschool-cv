@@ -1,1 +1,1 @@
-https://pinokio221.io/rsschool-cv/cv
+https://pinokio221.github.io/rsschool-cv/
