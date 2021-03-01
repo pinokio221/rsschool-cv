@@ -1,0 +1,60 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+
+h3{
+    color: rgb(38, 165, 0);
+    text-decoration: underline;
+
+}
+
+.wrapper {
+    display: block;
+    margin: 0px auto;
+    width: 45%;
+    height: 100%;
+    padding: 4%;
+    border: 2px solid blue;
+}
+
+header > h1{
+    text-align: right;
+}
+
+header > img{
+    width: 200px;
+    border-radius: 50%;;
+}
+
+.circle_list{
+    list-style-type: circle;
+}
+
+.contacts_block > ul > li > span{
+    color: rgb(58, 129, 234);
+}
+
+.contacts_block > ul > li{
+    font-weight: 600;
+}
+
+.education_block > span {
+    font-weight: bold;
+}
+
+
+.skills_block > ul > li > span{
+    font-weight: bold;
+}
+
+.ed_years{
+    color: gray;
+}
+
+.projects_block > ul >li{
+    font-weight: bold;
+}
+
+a{
+    color:rgb(58, 129, 234);
+}
