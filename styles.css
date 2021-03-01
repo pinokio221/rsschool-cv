@@ -1,5 +1,6 @@
 body {
     font-family: 'Sarabun', sans-serif;
+    background-color: whitesmoke;
 }
 
 h3{
@@ -10,11 +11,12 @@ h3{
 
 .wrapper {
     display: block;
+    background-color: white;
     margin: 0px auto;
     width: 45%;
     height: 100%;
     padding: 4%;
-    border: 2px solid blue;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 header > h1{
@@ -45,7 +47,32 @@ header > img{
     font-weight: bold;
 }
 
+.skills_block > ul > li{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
 
+.projects_block > ul > li{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.projects_block > ul > li:before{
+    color: blue;
+    font-size: 15px;
+    content: "➤";
+    padding-right: 5px;
+}
+
+
+.skills_block > ul > li:before{
+    color: green;
+    font-size: 30px;
+    content: "✔";
+    padding-right: 5px;
+}
 .skills_block > ul > li > span{
     font-weight: bold;
 }
@@ -61,6 +88,21 @@ header > img{
 .icon{
     padding-right: 5px;
     width: 15px;
+}
+
+#footer_course > img{
+    width: 100px;
+}
+
+#footer_git{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    float: right;
+}
+#footer_git > img{
+    width: 30px;
+    padding-right: 6px;
 }
 
 a{
