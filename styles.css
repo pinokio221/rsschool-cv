@@ -33,6 +33,9 @@ header > img{
 .contacts_block > ul > li > span{
     color: rgb(58, 129, 234);
 }
+.contacts_block > ul{
+    list-style-type: none;
+}
 
 .contacts_block > ul > li{
     font-weight: 600;
@@ -53,6 +56,11 @@ header > img{
 
 .projects_block > ul >li{
     font-weight: bold;
+}
+
+.icon{
+    padding-right: 5px;
+    width: 15px;
 }
 
 a{
